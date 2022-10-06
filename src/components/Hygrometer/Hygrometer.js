@@ -1,9 +1,10 @@
 import ReactSlider from "react-slider";
 import "./Hygrometer.css";
-import {useClimate} from '../../context/ClimateContext'
+import { useClimate } from "../../context/ClimateContext";
 
 function Hygrometer() {
-  const {humidity, setHumidity} = useClimate()
+  const { humidity, setHumidity } = useClimate();
+
   return (
     <section>
       <h2>Hygrometer</h2>
